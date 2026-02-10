@@ -61,6 +61,8 @@ lfo_random:
 
 // ============================================================================
 // Note Name Table (for UI display)
+// Format: Two-character note names concatenated without delimiters
+// C-, C#, D-, D#, E-, F-, F#, G-, G#, A-, A#, B- (12 notes × 2 chars = 24 bytes)
 // ============================================================================
 note_names:
     .text "C-C#D-D#E-F-"
