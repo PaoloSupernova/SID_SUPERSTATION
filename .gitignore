@@ -1,0 +1,35 @@
+# Build artifacts
+build/
+*.prg
+*.o
+*.bin
+*.sym
+*.vs
+
+# Assembler temporary files
+*.tmp
+*.bak
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Generated files
+src/freq_table_data.asm
+
+# Disk images (if any)
+*.d64
+*.d71
+*.d81
+*.dsk
+
+# Temporary test files
+/tmp/
