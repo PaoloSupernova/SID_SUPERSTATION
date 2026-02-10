@@ -586,70 +586,95 @@ print_noi:
 // UI Strings
 // ============================================================================
 str_title:
-    .text "SID SUPERSTATION V1.0", 0
+    .text "SID SUPERSTATION V1.0"
+    .byte $00
 
 str_patch_label:
-    .text "P:", 0
+    .text "P:"
+    .byte $00
 
 str_osc_section:
-    .text "OSC1:", 0
+    .text "OSC1:"
+    .byte $00
 
 str_adsr_section:
-    .text "A:04 D:08 S:12 R:06  [VOICE 1]", 0
+    .text "A:04 D:08 S:12 R:06  [VOICE 1]"
+    .byte $00
 
 str_filter_section:
-    .text "FILTER: LP  CUT:1024 RES:08", 0
+    .text "FILTER: LP  CUT:1024 RES:08"
+    .byte $00
 
 str_lfo_section:
-    .text "LFO1:TRI", $1E, "PITCH  R:32 D:64", 0
+    .text "LFO1:TRI"
+    .byte $1E
+    .text "PITCH  R:32 D:64"
+    .byte $00
 
 str_fkeys_1:
-    .text "F1:OSC F3:FILT F5:LFO F7:SEQ", 0
+    .text "F1:OSC F3:FILT F5:LFO F7:SEQ"
+    .byte $00
 
 str_fkeys_2:
-    .text "F2:ENV F4:ARP  F6:SAVE F8:LOAD", 0
+    .text "F2:ENV F4:ARP  F6:SAVE F8:LOAD"
+    .byte $00
 
 str_seq_title:
-    .text "SEQUENCER", 0
+    .text "SEQUENCER"
+    .byte $00
 
 str_pat_label:
-    .text "PAT:", 0
+    .text "PAT:"
+    .byte $00
 
 str_bpm_label:
-    .text "BPM:", 0
+    .text "BPM:"
+    .byte $00
 
 str_step_header:
-    .text "STEP:", 0
+    .text "STEP:"
+    .byte $00
 
 str_v1_label:
-    .text "V1:", 0
+    .text "V1:"
+    .byte $00
 
 str_transport:
-    .text "[PLAY] [STOP] [REC] [EDIT]", 0
+    .text "[PLAY] [STOP] [REC] [EDIT]"
+    .byte $00
 
 str_filter_page:
-    .text "FILTER PARAMETERS", 0
+    .text "FILTER PARAMETERS"
+    .byte $00
 
 str_lfo_page:
-    .text "LFO PARAMETERS", 0
+    .text "LFO PARAMETERS"
+    .byte $00
 
 str_arp_page:
-    .text "ARPEGGIATOR", 0
+    .text "ARPEGGIATOR"
+    .byte $00
 
 str_saveload_page:
-    .text "SAVE / LOAD", 0
+    .text "SAVE / LOAD"
+    .byte $00
 
 str_wf_tri:
-    .text "TRI", 0
+    .text "TRI"
+    .byte $00
 
 str_wf_saw:
-    .text "SAW", 0
+    .text "SAW"
+    .byte $00
 
 str_wf_pul:
-    .text "PUL", 0
+    .text "PUL"
+    .byte $00
 
 str_wf_noi:
-    .text "NOI", 0
+    .text "NOI"
+    .byte $00
 
 str_wf_unknown:
-    .text "???", 0
+    .text "???"
+    .byte $00

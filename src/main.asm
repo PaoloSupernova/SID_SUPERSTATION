@@ -220,9 +220,12 @@ default_patches:
 // Program Info
 // ============================================================================
 program_info:
-    .text "SID SUPERSTATION V1.0", $00
-    .text "COMMODORE 64 SYNTHESIZER", $00
-    .text "(C) 2026", $00
+    .text "SID SUPERSTATION V1.0"
+    .byte $00
+    .text "COMMODORE 64 SYNTHESIZER"
+    .byte $00
+    .text "(C) 2026"
+    .byte $00
 
 // ============================================================================
 // End of Program

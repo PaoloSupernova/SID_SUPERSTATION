@@ -61,15 +61,17 @@ lfo_random:
 
 // ============================================================================
 // Note Name Table (for UI display)
+// Format: Two-character note names concatenated without delimiters
+// C-, C#, D-, D#, E-, F-, F#, G-, G#, A-, A#, B- (12 notes × 2 chars = 24 bytes)
 // ============================================================================
 note_names:
-    .text "C-", "C#", "D-", "D#", "E-", "F-"
-    .text "F#", "G-", "G#", "A-", "A#", "B-"
+    .text "C-C#D-D#E-F-"
+    .text "F#G-G#A-A#B-"
 
 // ============================================================================
 // ADSR Time Tables (approximate milliseconds)
 // ============================================================================
 // Attack/Decay/Release rates in milliseconds for ADSR values 0-15
 adsr_time_table:
-    .byte 2, 8, 16, 24, 38, 56, 68, 80
-    .byte 100, 250, 500, 800, 1000, 3000, 5000, 8000
+    .word 2, 8, 16, 24, 38, 56, 68, 80
+    .word 100, 250, 500, 800, 1000, 3000, 5000, 8000
