@@ -7,6 +7,9 @@
 // Entry point and main loop
 // ============================================================================
 
+// Import constants FIRST - all other files depend on these
+#import "constants.asm"
+
 // Set up basic C64 program header
 .pc = $0801 "Basic Upstart"
 :BasicUpstart(start)
@@ -154,7 +157,6 @@ irq_handler:
 // ============================================================================
 // Include all modules
 // ============================================================================
-#import "constants.asm"
 #import "tables.asm"
 #import "sid.asm"
 #import "synth_engine.asm"
